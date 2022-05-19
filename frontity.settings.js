@@ -3,36 +3,21 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
+      "title": "Lol Boosting",
       "description": "WordPress installation for Frontity development"
     }
   },
   "packages": [
     {
-      "name": "@frontity/mars-theme",
+      "name": "lb",
       "state": {
         "theme": {
           "menu": [
-            [
-              "Home",
-              "/"
-            ],
-            [
-              "Nature",
-              "/category/nature/"
-            ],
-            [
-              "Travel",
-              "/category/travel/"
-            ],
-            [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
-            ]
+            ['Product', '/product/'],
+            ['About', '/about/'],
+            ['Hiring', '/hiring/'],
+            ['Blog', '/blog/'],
+            ['FAQ', '/faq/'],
           ],
           "featured": {
             "showOnList": false,
