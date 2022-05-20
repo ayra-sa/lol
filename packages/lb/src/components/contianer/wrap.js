@@ -3,8 +3,10 @@ import { device } from "../queries";
 
 export const Wrap = styled.div`
     width: 100%;
-    display: inline-block;
-    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
 
     @media ${device.laptop} {
         width: 60%;

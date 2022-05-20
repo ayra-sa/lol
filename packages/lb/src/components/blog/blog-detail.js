@@ -7,9 +7,14 @@ import { MainTag } from "../typography/main-tag";
 import { ButtonContainer } from "../buttons/button-container";
 import { Divider } from "../other/divider";
 import blogImg from "../images/latest-img.png";
+import like from "../images/icons/like.svg";
+import chatBlack from "../images/icons/chat-black.svg";
+import unlike from "../images/icons/unlike.svg";
 import Link from "@frontity/components/link";
 import { Special } from "../typography/special-tag";
 import { device } from "../queries";
+import { Wrap } from "../contianer/wrap";
+import { DecorTitle2 } from "../typography/decor-title";
 // import { BsChatSquareFill } from "react-icons/bs";
 
 
@@ -30,7 +35,10 @@ const BlogDetail = () => {
         <Info>
           <Date>23.12.2021</Date>
           <Author>by James Smith</Author>
-          <Comment>212</Comment>
+          <Comment>
+            <img src={chatBlack} alt='icon' />
+            212
+          </Comment>
         </Info>
 
         <BDetailImage src={blogImage} alt="blog" />
@@ -109,7 +117,16 @@ const BlogDetail = () => {
             </Body3>
             <CommentAction>
               <Date>23.12.2021</Date>
-              <CommentReact>122</CommentReact>
+              <CommentReact>
+                <Like>
+                  <img src={like} alt='icon' />
+                  212
+                </Like>
+                <Unlike>
+                  <img src={unlike} alt='icon' />
+                  212
+                </Unlike>
+              </CommentReact>
             </CommentAction>
           </CommentBox>
           <CommentBox>
@@ -123,7 +140,16 @@ const BlogDetail = () => {
             </Body3>
             <CommentAction>
               <Date>23.12.2021</Date>
-              <CommentReact>122</CommentReact>
+              <CommentReact>
+                <Like>
+                  <img src={like} alt='icon' />
+                  212
+                </Like>
+                <Unlike>
+                  <img src={unlike} alt='icon' />
+                  212
+                </Unlike>
+              </CommentReact>
             </CommentAction>
           </CommentBox>
           <CommentBox>
@@ -137,7 +163,16 @@ const BlogDetail = () => {
             </Body3>
             <CommentAction>
               <Date>23.12.2021</Date>
-              <CommentReact>122</CommentReact>
+              <CommentReact>
+                <Like>
+                  <img src={like} alt='icon' />
+                  212
+                </Like>
+                <Unlike>
+                  <img src={unlike} alt='icon' />
+                  212
+                </Unlike>
+              </CommentReact>
             </CommentAction>
           </CommentBox>
         </Comments>
@@ -162,8 +197,10 @@ const BlogDetail = () => {
 
       <div className="container">
         <BlogBtm>
-          <MainTag>Related articles</MainTag>
-          <Heading2>You can also like to read</Heading2>
+          <Wrap>
+            <MainTag>Related articles</MainTag>
+            <DecorTitle2>You can also like to read</DecorTitle2>
+          </Wrap>
 
           <BlogRelated>
             <BlogCard link="/detail">
@@ -174,7 +211,6 @@ const BlogDetail = () => {
                   <Body2>12 Nov 2021</Body2>
                   <CommentThumb>
                     <span>212</span>
-                    {/* <BsChatSquareFill /> <span>212</span> */}
                   </CommentThumb>
                 </BlogInfo>
               </BlogTop>
@@ -244,11 +280,21 @@ const Info = styled.div`
   align-items: center;
   margin-top: 20px;
   color: #6e7687;
+  gap: 20px;
 `;
 
 const Date = styled(Body3)``;
-const Author = styled(Body3)``;
-const Comment = styled.div``;
+const Author = styled(Body3)`
+  padding: 0 20px;
+  border-left: 1px solid #D0D5DF;
+  border-right: 1px solid #D0D5DF;
+`;
+
+const Comment = styled.div`
+  display: flex;
+  gap: 10px;
+  align-items: center;
+`;
 
 const BDetailImage = styled.img`
   margin: 40px 0 20px 0;
@@ -279,7 +325,23 @@ const CommentAction = styled.div`
   justify-content: space-between;
 `;
 
-const CommentReact = styled.div``;
+const CommentReact = styled.div`
+  display: flex;
+  gap: 20px;
+  align-items: center;
+`;
+
+const Like = styled.div`
+  display: flex;
+  gap: 10px;
+  background: linear-gradient(89.67deg, #5479E6 0.26%, #6B7AFF 99.71%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+align-items: center;
+`
+
+const Unlike = styled(Like)``
 
 const Opinion = styled.div`
   margin-top: 100px;
@@ -325,7 +387,11 @@ const BlogRelated = styled.div`
     margin-top: 20px;
     display: flex;
     gap: 90px;
-    flex-wrap: wrap;
+    flex-direction: column;
+
+    @media ${device.laptop} {
+      flex-direction: row;
+    }
 `
 
 const BlogCard = styled(Link)`

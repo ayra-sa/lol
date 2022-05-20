@@ -13,11 +13,31 @@ const settings = {
       "state": {
         "theme": {
           "menu": [
-            ['Product', '/product/'],
-            ['About', '/about/'],
-            ['Hiring', '/hiring/'],
-            ['Blog', '/blog/'],
-            ['FAQ', '/faq/'],
+            {
+              name: 'Product',
+              href: '/product/'
+            },
+            {
+              name: 'About',
+              href: '/about/'
+            },
+            {
+              name: 'Hiring',
+              href: '/hiring/'
+            },
+            {
+              name: 'Blog',
+              href: '/blog/',
+            },
+            {
+              name: 'FAQ',
+              href: '/faq/'
+            },
+            // ['Product', '/product/'],
+            // ['About', '/about/'],
+            // ['Hiring', '/hiring/'],
+            // ['Blog', '/blog/'],
+            // ['FAQ', '/faq/'],
           ],
           "featured": {
             "showOnList": false,

@@ -1,4 +1,6 @@
 import { styled } from "frontity"
+import { device } from "../queries"
+import down from '../images/icons/chevron-down.svg'
 
 const Filter = () => {
     return (
@@ -7,20 +9,21 @@ const Filter = () => {
               <span>World of Warcraft</span>
             </FilterGames>
             <FilterGames>
-              <span>World of Warcraft</span>
+              <span>Apex Legends</span>
             </FilterGames>
             <FilterGames>
-              <span>World of Warcraft</span>
+              <span>League of Legends</span>
             </FilterGames>
             <FilterGames>
-              <span>World of Warcraft</span>
+              <span>New world</span>
             </FilterGames>
             <FilterGames>
-              <span>World of Warcraft</span>
+              <span>Destiny 2</span>
             </FilterGames>
-            <FilterGames>
-              <span>World of Warcraft</span>
-            </FilterGames>
+            <FilterDropdown>
+              <span>Other</span>
+              <img src={down} alt='icon' />
+            </FilterDropdown>
           </FilterWrap>
     )
 }
@@ -34,11 +37,15 @@ const FilterWrap = styled.div`
   margin: 40px 0 60px 0;
   width: 100%;
   overflow: scroll;
+
+  @media ${device.laptop} {
+    overflow: unset;
+  }
   `
 
 const FilterGames = styled.div`
   padding: 24px 50px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   border-radius: 20px;
   font-weight: 500;
   font-size: 1.15em;
@@ -50,4 +57,9 @@ const FilterGames = styled.div`
     color: #fff;
     font-weight: 700;
   }
+`
+
+const FilterDropdown = styled(FilterGames)`
+  display: flex;
+  gap: 10px;
 `

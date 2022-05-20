@@ -37,12 +37,11 @@ const Nav = ({ state }) => {
           </SearchBar>
         </NavLeft>
           <NavMenu>
-            {state.theme.menu.map(([name, link]) => {
-                const isCurrentPage = state.router.link === link
-                console.log(isCurrentPage, link)
+            {state.theme.menu.map(({name, href}) => {
+                const isCurrentPage = state.router.link === href
               return (
                 <NavItem>
-                  <Link key={name} link={link} aria-current={isCurrentPage ? "page" : undefined}>{name}</Link>
+                  <Link key={name} link={href} aria-current={isCurrentPage ? "page" : undefined}>{name}</Link>
                 </NavItem>
               )
             })}
@@ -88,7 +87,8 @@ const NavContainer = styled.nav`
 
 const MenuIcon = styled.img`
   cursor: pointer;
-  @media ${device.laptop} {
+
+  @media ${device.tablet} {
     display: none;
   }
 `
@@ -137,7 +137,7 @@ const NavMenu = styled.div`
   position: absolute;
   left: -100%;
 
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     display: flex;
     position: relative;
     left: auto;
@@ -199,7 +199,7 @@ const BtnNavbar = styled.div`
 const BtnOrder = styled(Link)`
   display: none;
 
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     display: block;
   }
 `
@@ -207,7 +207,7 @@ const BtnOrder = styled(Link)`
 const Profile = styled.button`
   display: none;
 
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     background: transparent;
     border: none;
     display: block;
@@ -217,7 +217,7 @@ const Profile = styled.button`
 const OrderIcon = styled.div`
   display: block;
 
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     display: none;
   }
 `

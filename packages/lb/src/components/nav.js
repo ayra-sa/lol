@@ -31,10 +31,11 @@ const Navbar = ({ state }) => {
           </SearchBar>
           <NavMenu>
 
-            {state.theme.menu.map(([name, link]) => {
+            {state.theme.menu.map(({name, href}) => {
+              console.log(name)
               return (
                 <NavItem>
-                  <Link link={link}>{name}</Link>
+                  <Link link={href}>{name}</Link>
                 </NavItem>
               )
             })}
@@ -85,7 +86,7 @@ const NavWrap = styled.div`
   position: relative;
   min-width: 85vw;
   
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     width: 100%;
     justify-content: space-between;
 
@@ -97,7 +98,7 @@ const NavLeft = styled.div`
   align-items: center;
   column-gap: 20px;
 
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     column-gap: 90px;
   }
 `;
@@ -137,7 +138,7 @@ const NavMenu = styled.div`
   position: absolute;
   left: -100%;
 
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     display: flex;
     position: relative;
     left: auto;

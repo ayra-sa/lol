@@ -2,7 +2,7 @@ import { connect, styled } from "frontity";
 import React from "react";
 import { BtnPrimary } from "../buttons/button-primary";
 import { MainTag } from "../typography/main-tag";
-import { Body2, Body3, Heading2, Heading3, Heading4 } from "../typography/text";
+import { Body2, Body3, Heading2, Heading3, Heading4, Heading5 } from "../typography/text";
 import blogImage from "../images/latest-img.png";
 import Link from "@frontity/components/link";
 import { Special } from "../typography/special-tag";
@@ -12,16 +12,19 @@ import search from "../images/icons/search.svg";
 import { Input } from "../form/input";
 import commentIcon from '../images/icons/chat.svg'
 import { device } from "../queries";
+import { DecorTitle3 } from "../typography/decor-title";
+import { Wrap } from "../contianer/wrap";
 
 const BlogsPage = () => {
   return (
     <>
       <BLogHero>
-        <MainTag>Our blog</MainTag>
-        <Heading2>
-          Latest <Dot>Articles</Dot> from <br />
-          popular gaming services
-        </Heading2>
+        <Wrap>
+          <MainTag>Our blog</MainTag>
+          <DecorTitle3>
+            Latest <Dot>Articles</Dot> from <br /> popular gaming services
+          </DecorTitle3>
+        </Wrap>
       </BLogHero>
 
       <SelectWrap>
@@ -29,19 +32,19 @@ const BlogsPage = () => {
           <SelectNews>
             <NewsWrap>
               <News>
-                <Heading4>All News</Heading4>
+                <Heading5>All News</Heading5>
               </News>
               <News>
-                <Heading4>Popular News</Heading4>
+                <Heading5>Popular News</Heading5>
               </News>
               <News>
-                <Heading4>Most Discussing</Heading4>
+                <Heading5>Most Discussing</Heading5>
               </News>
               <News>
-                <Heading4>Cybersport</Heading4>
+                <Heading5>Cybersport</Heading5>
               </News>
               <News>
-                <Heading4>Gaming</Heading4>
+                <Heading5>Gaming</Heading5>
               </News>
             </NewsWrap>
             <SearchNews>
@@ -183,7 +186,11 @@ const BlogHead = styled.div`
   display: flex;
   gap: 90px;
   margin: 40px 0 60px 0;
-  flex-wrap: wrap;
+  flex-direction: column;
+
+  @media ${device.laptop} {
+    flex-direction: row;
+  }
 `;
 
 const Column3 = styled.div`

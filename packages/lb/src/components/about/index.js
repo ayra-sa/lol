@@ -17,7 +17,7 @@ import { BtnPrimary } from "../buttons/button-primary";
 import { BtnSecondary } from "../buttons/button-secondary";
 import { Wrap } from "../contianer/wrap";
 import { Info } from "./info";
-import { DecorTitle2 } from "../typography/decor-title";
+import { DecorTitle2, DecorTitle3 } from "../typography/decor-title";
 import { Dot } from "../typography/dot";
 
 const About = () => {
@@ -25,15 +25,15 @@ const About = () => {
   return (
     <>
       <AboutHero>
-        <Wrap>
-          <Center>
-            <MainTag>About Us</MainTag>
-            <Heading2>Welcome to <Dot>Lol Boosting</Dot></Heading2>
-            <Body3>
-              Eloboostleague is the world’s most advanced League of Legends boosting service. Since Season 1, we’ve become one of the leading platforms for League of Legends boosting.
-            </Body3>
-          </Center>
-        </Wrap>
+        <Center>
+          <Wrap>
+              <MainTag>About Us</MainTag>
+              <DecorTitle2>Welcome to <Dot>Lol Boosting</Dot></DecorTitle2>
+              <Body3>
+                Eloboostleague is the world’s most advanced League of Legends boosting service. Since Season 1, we’ve become one of the leading platforms for League of Legends boosting.
+              </Body3>
+          </Wrap>
+        </Center>
 
         <CountBox>
           <div>
@@ -54,9 +54,11 @@ const About = () => {
       <div className="container">
         <section className="section">
           <Center>
-            <MainTag>Some addings for you</MainTag>
-            <Heading2>Our Values</Heading2>
-            <Body3>Our wservices are guided by three simple principles:</Body3>
+            <Wrap>
+              <MainTag>Some addings for you</MainTag>
+              <DecorTitle3>Our Values</DecorTitle3>
+              <Body3>Our wservices are guided by three simple principles:</Body3>
+            </Wrap>
 
             <ValuesCards>
               <VCard>

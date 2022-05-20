@@ -120,6 +120,7 @@ const CheckoutWrap = styled.div`
     backdrop-filter: blur(14px);
     display: flex;
     place-content: center;
+    overflow: auto;
 `
 
 const CheckoutBox = styled.div`

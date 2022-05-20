@@ -12,6 +12,8 @@ import { Cards } from "../card";
 import bgImg from '../images/hero-bg.png'
 import badge from '../images/badge.png'
 import { Input, Option, Select } from "../form/input";
+import Progress from "../progress";
+import { DecorTitle2 } from "../typography/decor-title";
 
 
 const Order = () => {
@@ -25,6 +27,8 @@ const Order = () => {
           <Heading3>Silver 3 to platinum 4</Heading3>
         </Badge>
       </OrderHero>
+
+      <Progress />
 
       <div className="container">
         <OrderCol>
@@ -140,7 +144,7 @@ const Order = () => {
             <Help>
                 <HelpTop>
                     <MainTag>Help</MainTag>
-                    <Heading2>Need future assistance?</Heading2>
+                    <DecorTitle2>Need future assistance?</DecorTitle2>
                     <Body3>Feel free to mail us or look in the bottom left corner!</Body3>
                 </HelpTop>
                 <BtnPrimary>Contact Us</BtnPrimary>
@@ -397,6 +401,8 @@ const Help = styled.div`
     background: url(${bgImg}) no-repeat center;
     background-size: cover;
     border-radius: 20px;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;

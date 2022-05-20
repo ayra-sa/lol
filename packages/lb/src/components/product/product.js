@@ -15,6 +15,8 @@ import { Headline } from "../typography/headline";
 import { Dot } from "../typography/dot";
 import { SmallContainer } from "../contianer/small-container";
 import { DecorTitle } from "../typography/decor-title";
+import Progress from "../progress";
+import Breadcrumbs from "../breadcrumbs";
 
 const Product = () => {
   return (
@@ -26,6 +28,7 @@ const Product = () => {
         <div className="container">
           <section className="section">
             <SmallContainer>
+              <Breadcrumbs />
               <DecorTitle>
                 World of warCraft <Dot>Character Boosting</Dot>
               </DecorTitle>
@@ -145,6 +148,8 @@ export default connect(Product);
 
 const MainRight = styled.div`
   width: 100%;
+  /* margin-top: 40px; */
+
   @media ${device.laptop} {
     width: calc(100% - 375px);
     margin-left: 375px;

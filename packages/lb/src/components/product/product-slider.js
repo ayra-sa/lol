@@ -23,9 +23,11 @@ import { Input, Option, Select } from "../form/input";
 import what from "../images/slider/what.svg";
 import count from "../images/slider/card-count.png";
 import check from "../images/icons/verified.svg";
+import ratingStar from "../images/icons/star-rating.svg";
 import bgBasket from "../images/slider/bg-basket.png";
 import Breadcrumbs from "../breadcrumbs";
 import { SmallContainer } from "../contianer/small-container";
+import { device } from "../queries";
 
 const ProductSlider = () => {
   return (
@@ -257,6 +259,13 @@ const ProductSlider = () => {
               <TellUs>
                 <ReviewTitle>Tell us about your experience</ReviewTitle>
                 <Body4>Your overall rating</Body4>
+                <RatingInput>
+                  <img src={ratingStar} alt='icon' />
+                  <img src={ratingStar} alt='icon' />
+                  <img src={ratingStar} alt='icon' />
+                  <img src={ratingStar} alt='icon' />
+                  <img src={ratingStar} alt='icon' />
+                </RatingInput>
                 <ReviewForm>
                   <Input placeholder="Title" type="text" />
                   <Input placeholder="Name" type="text" />
@@ -311,6 +320,11 @@ const MainRight = styled.div`
   & input {
     width: 100%;
   }
+
+  @media ${device.tablet} {
+    width: 100%;
+    margin-left: unset;
+  }
 `;
 
 const ContentSlide = styled.div`
@@ -322,11 +336,17 @@ const Positions = styled.div`
   display: flex;
   gap: 20px;
   margin-top: 40px;
+  flex-wrap: wrap;
 
   & select {
     margin-bottom: 10px;
     width: 100%;
   }
+
+  @media ${device.laptop} {
+    flex-wrap: nowrap;
+  }
+  
 `;
 
 const Position = styled.div`
@@ -472,7 +492,16 @@ const Reviews = styled.div`
   margin-top: 40px;
 `;
 
-const TellUs = styled.div``;
+const TellUs = styled.div`
+  margin-bottom: 60px;
+`;
+
+const RatingInput = styled.div`
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: 5px;
+`
 
 const ReviewTitle = styled(Heading4)`
   margin-bottom: 20px;

@@ -1,0 +1,827 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "851dbcd0ba14b665218c",
+  "publicPath": "",
+  "outputPath": "/Users/macbookpro/Documents/Projects/vektora-lb/build/static",
+  "assetsByChunkName": {
+    "vektora-lb": [
+      "vektora-lb.module.js",
+      "vektora-lb.badc7fa87bd804360bba.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "badc7fa87bd804360bba.hot-update.json",
+      "size": 52,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Burst-pucker-2-1.svg",
+      "size": 771,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/what-is/Burst-pucker-2-1.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Burst-pucker-2.svg",
+      "size": 747,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/Burst-pucker-2.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Card 22.svg",
+      "size": 2271077,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/Card 22.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Fox-hat.png",
+      "size": 69168,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/about-us/Fox-hat.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Highlight_05.svg",
+      "size": 1955,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/what-is/Highlight_05.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Highlight_06.svg",
+      "size": 1395,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/Highlight_06.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Highlight_10.svg",
+      "size": 4009,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/Highlight_10.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Item 1.svg",
+      "size": 215786,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/Item 1.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Item 2.svg",
+      "size": 608647,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/Item 2.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Item 3.svg",
+      "size": 844353,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/Item 3.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Item 5.svg",
+      "size": 844382,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/Item 5.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/PngItem_work.png",
+      "size": 258550,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/PngItem_work.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Trustpilot.png",
+      "size": 1382,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/Trustpilot.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/american-express-1.svg",
+      "size": 6922,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/payment/american-express-1.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/arrow-down.svg",
+      "size": 790,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/arrow-down.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/arrow-up-purple.svg",
+      "size": 542,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/arrow-up-purple.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/arrow-up.svg",
+      "size": 289,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/arrow-up.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/arrow.svg",
+      "size": 536,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/arrow.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/badge.png",
+      "size": 5631,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/badge.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/bg-basket.png",
+      "size": 35109,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/slider/bg-basket.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/bg-main.png",
+      "size": 4361491,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/bg-main.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/blog-thumb.png",
+      "size": 220569,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/blogs/blog-thumb.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/card-count.png",
+      "size": 1366,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/slider/card-count.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/chat-black.svg",
+      "size": 487,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/chat-black.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/chat-talking.svg",
+      "size": 1563,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/about-us/chat-talking.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/chat.svg",
+      "size": 485,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/chat.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/chevron-down.svg",
+      "size": 236,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/chevron-down.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/coaching-icon.svg",
+      "size": 2273722,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/about-us/coaching-icon.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/confidential-password.svg",
+      "size": 1406,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/about-us/confidential-password.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/email.svg",
+      "size": 551,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/email.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/eye.svg",
+      "size": 641,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/eye.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/footer-bg.png",
+      "size": 1130853,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/footer-bg.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/game-select.png",
+      "size": 44495,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/game-select.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/guarantee.svg",
+      "size": 3814,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/about-us/guarantee.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/hamburger-menu.svg",
+      "size": 522,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/hamburger-menu.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/hero-bg.png",
+      "size": 788636,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/hero-bg.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/hero-img.png",
+      "size": 235477,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/hero-img.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/hl-review.svg",
+      "size": 4024,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/hl-review.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/ig.svg",
+      "size": 1872,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/ig.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/image 5.png",
+      "size": 352153,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/image 5.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/item.png",
+      "size": 25613,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/order/item.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/join-img.png",
+      "size": 407364,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/about-us/join-img.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/klarna-logo-black.svg",
+      "size": 2669,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/payment/klarna-logo-black.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/latest-img.png",
+      "size": 365080,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/latest-img.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/like.svg",
+      "size": 1487,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/like.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/logo-footer.png",
+      "size": 7756,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/logo-footer.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/logo.svg",
+      "size": 108379,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/logo.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/maestrocard.svg",
+      "size": 7513,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/payment/maestrocard.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/mastercard-6.svg",
+      "size": 13829,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/payment/mastercard-6.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/minus.svg",
+      "size": 414,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/minus.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/order.svg",
+      "size": 562,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/order.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/paysafe-card.svg",
+      "size": 8377,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/payment/paysafe-card.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/plus.svg",
+      "size": 744,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/plus.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/pngitem-wow.png",
+      "size": 185166,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/pngitem-wow.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/pngkey_wow2.png",
+      "size": 191614,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/pngkey_wow2.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/power-icon.svg",
+      "size": 2273850,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/about-us/power-icon.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/progress.png",
+      "size": 507,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/progress.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/review-bg.png",
+      "size": 2821167,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/review-bg.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/search.svg",
+      "size": 1010,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/search.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/smart-icon.svg",
+      "size": 2275143,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/about-us/smart-icon.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/star-rating.png",
+      "size": 4603,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/star-rating.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/star-rating.svg",
+      "size": 1207,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/star-rating.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/suggest-bg.png",
+      "size": 785274,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/suggest-bg.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/suggest-bg2.png",
+      "size": 867758,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/suggest-bg2.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/t.svg",
+      "size": 533,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/t.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/tele.svg",
+      "size": 1300,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/tele.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/twitter.svg",
+      "size": 1493,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/twitter.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/unlike.svg",
+      "size": 1525,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/unlike.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/user.png",
+      "size": 2065,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/user.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/verified.svg",
+      "size": 1533,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/verified.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/visa-4.svg",
+      "size": 3170,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/payment/visa-4.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/what-is-img.png",
+      "size": 300224,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/what-is-img.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/what.svg",
+      "size": 2273824,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/slider/what.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/x.svg",
+      "size": 1105,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/x.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/youtube.svg",
+      "size": 1067,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/lb/src/components/images/icons/youtube.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "vektora-lb.badc7fa87bd804360bba.hot-update.js",
+      "size": 70792,
+      "chunks": [
+        "vektora-lb"
+      ],
+      "chunkNames": [
+        "vektora-lb"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "vektora-lb.module.js",
+      "size": 10663924,
+      "chunks": [
+        "vektora-lb"
+      ],
+      "chunkNames": [
+        "vektora-lb"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "namedChunkGroups": {
+    "vektora-lb": {
+      "chunks": [
+        "vektora-lb"
+      ],
+      "assets": [
+        "vektora-lb.module.js",
+        "vektora-lb.badc7fa87bd804360bba.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "vektora-lb",
+      "files": [
+        "vektora-lb.module.js",
+        "vektora-lb.badc7fa87bd804360bba.hot-update.js"
+      ]
+    }
+  ]
+}

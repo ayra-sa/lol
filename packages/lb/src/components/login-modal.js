@@ -34,7 +34,9 @@ const LoginModal = ({close}) => {
                     <Input placeholder='User' type='text' required='true' />
                     <Password>
                         <Input placeholder='Password' type={passType} value={passInput} onChange={handlePassChange} required='true' />
-                        <EyeShow src={eye} alt='icon' onClick={togglePass} />
+                        <EyeShow onClick={togglePass}>
+                            <img src={eye} alt='icon' />
+                        </EyeShow>
                     </Password>
                     <Remember>
                         <Check>
@@ -122,7 +124,7 @@ const Password = styled.div`
     }
 `
 
-const EyeShow = styled.img`
+const EyeShow = styled.div`
     position: absolute;
     inset: 5px 10px auto auto;
 `
