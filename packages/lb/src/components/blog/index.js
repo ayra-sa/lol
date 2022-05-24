@@ -48,7 +48,7 @@ const BlogsPage = () => {
               </News>
             </NewsWrap>
             <SearchNews>
-              <Input placeholder="search theme" type="text" />
+              <Input placeholder="Search theme" type="text" />
               <img src={search} alt="icon" />
             </SearchNews>
           </SelectNews>

@@ -125,6 +125,9 @@ const globalStyles = css`
   img {
     max-width: 100%;
   }
+  input, textarea {
+    font-family: inherit;
+  }
   .section {
     margin-top: 100px;
   }

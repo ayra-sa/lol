@@ -9,6 +9,7 @@ const Classes = css`
     border: none;
     margin-bottom: 20px;
     font-size: .875em;
+    font-family: inherit;
   
     &:focus {
       outline: none;
