@@ -478,12 +478,16 @@ const Rating = styled.div`
   border-radius: 30px;
   padding: 20px;
   text-align: center;
-  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  width: auto;
   margin: 40px auto;
+  
+  @media ${device.tablet} {
+    width: 400px;
+  }
 `;
 
 const Reviews = styled.div`

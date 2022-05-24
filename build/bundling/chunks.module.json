@@ -1,18 +1,18 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "cf7979675954537c7e60",
+  "hash": "513f429045e2c7c7536c",
   "publicPath": "",
   "outputPath": "/Users/macbookpro/Documents/Projects/vektora-lb/build/static",
   "assetsByChunkName": {
     "vektora-lb": [
       "vektora-lb.module.js",
-      "vektora-lb.c014bd243af8217d66eb.hot-update.js"
+      "vektora-lb.fcff9418e4f5d948fb8a.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "c014bd243af8217d66eb.hot-update.json",
+      "name": "fcff9418e4f5d948fb8a.hot-update.json",
       "size": 52,
       "chunks": [],
       "chunkNames": [],
@@ -773,8 +773,8 @@
       "emitted": false
     },
     {
-      "name": "vektora-lb.c014bd243af8217d66eb.hot-update.js",
-      "size": 29310,
+      "name": "vektora-lb.fcff9418e4f5d948fb8a.hot-update.js",
+      "size": 44091,
       "chunks": [
         "vektora-lb"
       ],
@@ -789,7 +789,7 @@
     },
     {
       "name": "vektora-lb.module.js",
-      "size": 10664269,
+      "size": 10667797,
       "chunks": [
         "vektora-lb"
       ],
@@ -808,7 +808,7 @@
       ],
       "assets": [
         "vektora-lb.module.js",
-        "vektora-lb.c014bd243af8217d66eb.hot-update.js"
+        "vektora-lb.fcff9418e4f5d948fb8a.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -820,7 +820,7 @@
       "id": "vektora-lb",
       "files": [
         "vektora-lb.module.js",
-        "vektora-lb.c014bd243af8217d66eb.hot-update.js"
+        "vektora-lb.fcff9418e4f5d948fb8a.hot-update.js"
       ]
     }
   ]

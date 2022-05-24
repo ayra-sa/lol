@@ -113,6 +113,8 @@ const globalStyles = css`
     font-size: 1em;
     line-height: 27px;
     color: #3a445c;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
   }
   main {
     overflow: hidden;

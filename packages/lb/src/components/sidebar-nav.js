@@ -94,6 +94,11 @@ const Categories = styled.ul`
   display: flex;
   column-gap: 10px;
   overflow-x: scroll;
+  display: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
   
   @media ${device.laptop} {
     display: block;
